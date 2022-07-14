@@ -74,3 +74,10 @@ function criarCardProduto(produto) {
 
   return body
 }
+
+// CRIANDO BOTÃO PELO DOM //
+let footer = document.querySelector('footer')
+let button = document.createElement('button')
+footer.appendChild(button)
+button.classList.add('btnFinalizar')
+button.innerHTML = `Finalizar Compra`
