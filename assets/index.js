@@ -25,8 +25,8 @@ const productsCart = [
 
 function listarProdutos(listaProdutos) {
   for (let i = 0; i < listaProdutos.length; i++) {
-    let produto = listaProdutos[i]
-    criarCardProduto(produto)
+    //let produto = listaProdutos[i]
+    criarCardProduto(listaProdutos[i])
   }
 }
 
